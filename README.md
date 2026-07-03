@@ -1,8 +1,9 @@
 # Next Station? The Impact of Subway Network Integration on Travel Behavior: Evidence from São Paulo’s Line 5 - Lilac
 
-This repository contains the data, replication scripts, and results for the research project evaluating the socio-economic impacts of the São Paulo Metro Line 5-Lilac integration on employment and education variables.
+This repository contains the data, replication scripts, and results for the research project evaluating the socio-economic impacts of the São Paulo Metro Line 5-Lilac integration on employment and education variables. 
 
-**Status:** Working Paper
+**Status:** Working Paper  
+**Conference Submission:** This repository hosts the Online Appendix and supplementary materials for the ENABER submission.
 
 ## Overview
 This study investigates the changes in mobility patterns, job accessibility, and educational outcomes resulting from the expansion and integration of Line 5-Lilac. Using microdata from the São Paulo Metro Origin-Destination (OD) Survey (including the latest 2023 wave) and applying spatial econometrics and impact evaluation techniques, this repository documents data cleaning, spatial matching of traffic zones, and the estimation of heterogeneous effects.
@@ -32,6 +33,7 @@ Below is the project's file map, organized by purpose:
 * `04_estimations.R`: Main estimation routines for the econometric models and heterogeneity analysis.
 
 ### 3. Results and Outputs
+* `Online_Appendix_Line5.pdf`: Supplementary material for the ENABER submission, including detailed spatial distribution maps (Figures 6-11) and alternative control group robustness checks (Tables 7-10).
 * `Imagens/`: Heatmaps, event study plots, and visual robustness checks.
 * `lista_modelos_originais*.rds`: R objects containing the main regression results, CPTM models, and matched models for quick table compilation.
 * `São Paulo Shapefiles`: Shapefiles for districts and neighbourhoods from the city of São Paulo.
@@ -49,7 +51,7 @@ To replicate the results of this study:
 ## Citation and Contact
 
 **Researcher:** Philipe Libretti Dias  
-**Affiliation:** University of São Paulo (USP) - FEARP/USP
+**Affiliation:** University of São Paulo (USP) - PPGE-FEARP/USP
 
 ----
 
