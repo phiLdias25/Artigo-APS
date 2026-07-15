@@ -48,11 +48,6 @@ To replicate the results of this study:
 5. Next, run `02_matching.R` to establish the treatment assignments.
 6. Finally, execute `04_estimations.R` to reproduce the results.
 
-## Citation and Contact
-
-**Researcher:** Philipe Libretti Dias  
-**Affiliation:** University of São Paulo (USP) - PPGE-FEARP/USP
-
 ----
 
 If you use parts of this code or data in your research, please cite this repository or the associated working paper.
